@@ -1,0 +1,17 @@
+{
+  "name": "advance",
+  "version": "1.0.0",
+  "description": "Loading this page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass Sass/Main.scss Style/style.css -w"
+  },
+  "author": "Eric",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
